@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>Bridge Crossing</title>
+
+  <!--Favicon-->
+  <link rel="shortcut icon" type="image/jpg" href="BridgeLogo.png"/>
+
+  <!-- Bootsrap CSS & JS-->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ" crossorigin="anonymous"></script>
+
+  <!-- Leaflet CSS & JS -->
+  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css"
+  integrity="sha512-xodZBNTC5n17Xt2atTPuE1HxjVMSvLVW9ocqUKLsCC5CXdbqCmblAshOMAS6/keqq/sMZMZ19scR4PsZChSR7A=="
+  crossorigin=""/>
+  <script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js"
+  integrity="sha512-XQoYMqMTK8LvdxXYG3nZ448hOEQiglfqkJs1NOQV44cWnUrBc8PkAOcXy20w0vlaXaVUearIOBhiXZ5V3ynxwA=="
+  crossorigin=""></script>
+
+  <!-- Our CSS -->
+  <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+
+<body>
+
+  <h1 id="HomePageTitle">Bridge Crossing</h1>
+
+  <br>
+
+  <p style="text-align: center;"><img src="https://lh3.googleusercontent.com/plQx3hXLTxVKYOE1CTJtGK-zezj96HTiM0t9XLnLZgdJGOAhrjm_tNLjZ8P-rRS0w0R_tso7fBBVSkbNSxBLAhEVC9mBiZ0m5YV5BvWp2czVoA8yyuycUCLF3tKbCTloZ_wbTWVVf3GU5oejni5SEuT5b0wDAkhr7PSV2dj500drln1xFtCocpXXNBO9QiuS3AeefrQZ7XpldAfkgy90Npfmm9YXWK6rsT41qD2eeeKJjNNWmwtYScfmtQc36mMSf1gWkDrQ8eydMUGJHLQE-zkhZXsTnOcpuIs4fbLga4u6alWUDHF3rzyv-1D9_X_XL_F5qGjfy-DHAM4iOOlajaHQ0OsOEnxsev-PZgZdQ_JgpTUgl5C0M9uyhQP7Z_AeVptpjGSy5XcxaG9KWin2V5dwgUdnkGAVfDKYHaP1Dt1cgMr1n2AdCndAW1Anz6f0-Y-5WCqr2dIvynW-GGjCO2WsEIASkxqX7Yht0L0pRs8axRaSl7m0fidDHtbAFv--6qL-J0k7dmF4soU_fWl-Bexgi7IuymNolR8TSaBjVbqnG_-Tmsp9aNIIVFD6zFiRVRkp-SbK2C2YXH93TETfJdyVpjUSH85Tbhk8OazBVillIjD-wMUm1W7fem77eDn2q98iUq2AsviPuaWj9AaGXfl50Dsp_ln6Ee27KQkPhbSLh9ts3FXFYzQXGx8R1gexYkbFByNsSJ-e6LdOwARwmCBY=w952-h1270-no?authuser=0" width="476" height="635" style="border: 5px solid #FFFFFF"></p>
+  
+  <div class="paragraph">
+    <p>Hi! I'm Eric, a Bay Area native hailing from Palo Alto, currently residing in the Windy City of Chicago. I have always believed that there’s a special feeling one can experience while crossing a nice bridge. Often in Korean dramas and Japanese animation, a bridge is used as the setting for a budding romance or a lone-wolf protagonist's personal growth. I tend to relate more to the latter :)</p>
+    <p>Like countless millennials, I was drawn like a moth to the alluring flame of data science. I learned about the field after graduating with a background in environmental science. It took major career hacking to cross over into this world: years of health research at the CDC, Northwestern’s Data Science Boot Camp, and portfolio-building. In the end, I managed to bridge my academic background to the business world. The more I dive into my hard-earned role, the more I appreciate how versatile coding can be, from performing analytics to producing beautiful visuals.</p>
+    <p>During Chicago’s polar vortex and the 2020 pandemic, I accumulated an abundant amount of wanderlust. It is my hope to expand the artistic horizons of my skill set, and <strong>bridge</strong> my newly-earned coding background with romanticized storytelling of travel. I'm happy to have you along for the ride!</p>
+  </div>
+
+<!-- <p style="text-align: left;"><img src="BridgeLogo.png" width=70% height="200"></p> -->
+
+
+
+
+  <div id="map"></div>
+
+  <!-- JS -->
+  <script type="text/javascript" src="map.js"></script>
+</body>
+</html>
