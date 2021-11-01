@@ -10,7 +10,7 @@ var destinations = [
   {
     name: "Illinois",
     location: [40.6331, -89.3985],
-    url: "#"
+    url: "Destinations/Countries/United_States/Illinois.html"
   },
   // {
   //   name: "New York",
