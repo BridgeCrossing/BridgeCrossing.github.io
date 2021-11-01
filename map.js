@@ -20,7 +20,7 @@ var destinations = [
   {
     name: "Washington",
     location: [47.7511, -120.7401],
-    url: "Destinations/Countries/United_States/Washington/Washington.html"
+    url: "Destinations/Countries/United_States/Washington.html"
   },
   // {
   //   name: "Taipei",
@@ -35,7 +35,7 @@ var destinations = [
   {
     name: "Missouri",
     location: [37.9643, -91.8318],
-    url: "Destinations/Countries/United_States/Missouri/Missouri.html"
+    url: "Destinations/Countries/United_States/Missouri.html"
   }
 ];
 
