@@ -12,21 +12,11 @@ var destinations = [
     location: [40.6331, -89.3985],
     url: "Destinations/Countries/United_States/Illinois.html"
   },
-  // {
-  //   name: "New York",
-  //   location: [40.730610, -73.935242],
-  //   url: "Destinations/NewYork.html"
-  // },
   {
-    name: "Washington",
-    location: [47.7511, -120.7401],
-    url: "Destinations/Countries/United_States/Washington.html"
+    name: "Indiana",
+    location: [40.2672, -86.1349],
+    url: "Destinations/Countries/United_States/Indiana.html"
   },
-  // {
-  //   name: "Taipei",
-  //   location: [25.105497, 121.597366],
-  //   url: "Destinations/Taipei.html"
-  // },
   {
     name: "Iowa",
     location: [41.8780, -93.0977],
@@ -36,7 +26,23 @@ var destinations = [
     name: "Missouri",
     location: [37.9643, -91.8318],
     url: "Destinations/Countries/United_States/Missouri.html"
+  },
+  {
+    name: "Washington",
+    location: [47.7511, -120.7401],
+    url: "Destinations/Countries/United_States/Washington.html"
   }
+  // {
+  //   name: "New York",
+  //   location: [40.730610, -73.935242],
+  //   url: "Destinations/NewYork.html"
+  // },
+
+  // {
+  //   name: "Taipei",
+  //   location: [25.105497, 121.597366],
+  //   url: "Destinations/Taipei.html"
+  // },
 ];
 
 for (var i = 0; i < destinations.length; i++) {
