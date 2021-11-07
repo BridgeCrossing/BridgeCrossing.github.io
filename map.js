@@ -31,6 +31,11 @@ var destinations = [
     name: "Washington",
     location: [47.7511, -120.7401],
     url: "Destinations/Countries/United_States/Washington.html"
+  },
+  {
+    name: "Wisconsin",
+    location: [43.7844, -88.7879],
+    url: "Destinations/Countries/United_States/Wisconsin.html"
   }
   // {
   //   name: "New York",
